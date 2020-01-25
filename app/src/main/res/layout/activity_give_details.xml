@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newback"
+    tools:context=".GiveDetails">
+
+    <EditText
+        android:id="@+id/ETcomNamexxx"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="574dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <EditText
+        android:id="@+id/ETownerNamexxx"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="519dp"
+        android:hint="Transaction ID "
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#434040"
+        />
+
+    <EditText
+        android:id="@+id/ETownerNamexxx2"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="453dp"
+        android:hint="Mobile "
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <Button
+        android:id="@+id/buttonxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="319dp"
+
+        android:text="Submit" />
+
+
+</RelativeLayout>

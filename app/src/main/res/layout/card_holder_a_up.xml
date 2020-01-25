@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="#45E6E6E6">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20">
+
+        <ImageView
+            android:id="@+id/adaptarIMG1"
+            android:layout_width="79dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_image_black_24dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="75"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adaptarTourname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tour name "
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/adaptarTourLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="Tour Loc"
+                android:textColor="@android:color/background_dark"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/adaptarTourAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="Amount "
+                android:textColor="@android:color/darker_gray"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:layout_gravity="end">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/adaptarTourDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:includeFontPadding="true"
+                    android:text="TourDate "
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adaptarTOurlike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:includeFontPadding="true"
+                android:text="Z"
+                android:visibility="gone"
+                android:textStyle="italic"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/adaptarTourRegged"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:includeFontPadding="false"
+                android:text="Reg"
+                android:paddingTop="5dp"
+                android:textSize="10dp"
+                android:visibility="gone"
+                android:textColor="@android:color/holo_purple"
+                 />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

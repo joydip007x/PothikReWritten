@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:app="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newback"
+    tools:context=".Nav_draw_Fragment_Profile"
+    tools:ignore="NamespaceTypo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="70dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="132dp">
+
+                <ImageView
+                    android:id="@+id/IVadp"
+                    android:layout_width="124dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="143dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="143dp"
+                    android:adjustViewBounds="true"
+                    android:background="#C7D2E6"
+                    android:fitsSystemWindows="true"
+                    android:minWidth="120dp"
+                    android:minHeight="120dp"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_add_image"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <ImageView
+                    android:id="@+id/IVadp2"
+
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_alignEnd="@+id/IVadp"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="139dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_add_a_photo_black_24dp">
+                    android:fitsSystemWindows="true"
+                </ImageView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="537dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TVaAgencyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="agency name"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVaOwnerName1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Owner's Name"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVaOwnerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/TVaAddress1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVaAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/TVaDescription1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Description"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/TVaDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="1dp"
+                    android:inputType="textLongMessage"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/TVaNumber1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Contact Number"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVaNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="phone"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/TVaEmail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="E-mail"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVaEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonCAT"
+                    android:layout_width="193dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginEnd="-44dp"
+                    android:layout_marginBottom="94dp"
+                    android:background="@drawable/onepost14"
+                    android:text=""
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="99dp"
+                        android:layout_marginBottom="32dp"
+                        android:forceHasOverlappingRendering="true"
+                        android:text="Add a Tour "
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/blue"
+                        android:textSize="20dp"
+
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        tools:ignore="RtlCompat" />
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/fabNAv_a_Profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="143dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="end|right"
+                        android:layout_marginEnd="11dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:labelFor="@id/fabNAv_a_Profile"
+                        android:src="@drawable/ic_add_black_24dp"
+                        app:fab_label="Add a Tour "
+                        app:labelFor="@id/fabNAv_a_Profile"
+                        fab:fab_shadowRadius="20dp"
+                        fab:fab_size="normal"
+                        fab:maxImageSize="70dp"
+                        fab:pressedTranslationZ="@dimen/fab_margin"
+                        fab:useCompatPadding="true" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

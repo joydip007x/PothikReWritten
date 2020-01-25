@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInAsTraveler">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newtheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ETsInEmail"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="342dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textColor="#000000"
+        android:textColorHint="#434040"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ETsInPass"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="270dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+        android:textColor="#000000"
+        android:textColorHint="#434040"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/BsIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="177dp"
+        android:background="@drawable/newbutton"
+        android:text="SIGN IN"
+        android:textColor="#ffffff"
+
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="221dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="588dp"
+        android:text="পথিক"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="534dp"
+        android:text="Sign In As Traveler"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="52dp"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="615dp"/>
+
+    <Button
+        android:id="@+id/buttonForgotPassT"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="185dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="590dp"
+
+        android:layout_marginEnd="113dp"
+        android:alpha=".5"
+        android:background="@drawable/newbutton"
+        android:text="@string/uForgotPass"
+        android:textColor="#000000"  />
+
+
+</RelativeLayout>
